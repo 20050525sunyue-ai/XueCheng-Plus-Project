@@ -1,3 +1,4 @@
+# Maven #
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
@@ -18,6 +19,9 @@ target/
 *.iws
 *.iml
 *.ipr
+*.swp
+*.swo
+*~
 
 ### NetBeans ###
 /nbproject/private/
@@ -26,7 +30,44 @@ target/
 /nbdist/
 /.nb-gradle/
 build/
-logs/
 
 ### VS Code ###
 .vscode/
+
+### Qwen Code ###
+.qwen/
+
+### Logs ###
+logs/
+*.log
+log/
+
+### OS ###
+.DS_Store
+Thumbs.db
+desktop.ini
+
+### Application ###
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+### Jupyter Notebook ###
+.ipynb_checkpoints
+
+### Misc ###
+*.class
+*.orig
+*.bak
+*.cache
+.env
+*.pid
+*.seed
+*.pid.lock
+coverage/
+*.csv
+*.dat
+*.db
